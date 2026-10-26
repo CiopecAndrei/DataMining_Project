@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment
+.venv/
+.env
+
+# Generated data and model outputs
+data/raw/*
+!data/raw/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
